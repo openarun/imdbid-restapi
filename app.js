@@ -16,11 +16,5 @@ app.post('/', (req, res) =>{
 });
 
 
-async function titleToID(title) {
-    return new Promise(resolve => {
-       
-    });
-}
-
 
 app.listen(3000, () => console.log('Server ready'))
